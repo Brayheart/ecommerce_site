@@ -2,7 +2,7 @@
     <div class="navbar">
         <nav class="green darken-1">
             <div class="container">
-                <router-link :to="{name: 'GMap'}">Lorem!</router-link>
+                <router-link :to="{name: 'Welcome'}">Lorem!</router-link>
                 <ul class="right">
                     <li><router-link :to="{ name: 'Signup'}">Signup</router-link></li>
                     <li><router-link :to="{ name: 'Login'}">Login</router-link></li>
