@@ -17,8 +17,10 @@ require('./routes', (app))
 sequalize.sync()
 .then(() => {
 
-  app.listen(process.env.PORT || 8081)
+  app.listen(config.port || 8081)
   console.log(`server started on port ${config.port}`)
 })
 
 app.listen(process.env.PORT || 8081)
+
+// youtube video for refernce => https://www.youtube.com/watch?v=xZMwg5z5VGk&t=29s
