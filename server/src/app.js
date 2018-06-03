@@ -14,6 +14,8 @@ app.use(cors()) // sercurity risk?
 
 require('./routes', (app))
 
+
+
 sequalize.sync()
 .then(() => {
 
